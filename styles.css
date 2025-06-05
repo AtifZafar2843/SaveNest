@@ -1,0 +1,20 @@
+/* Custom styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Smooth transitions */
+a, button {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Custom hover effects */
+.hover-scale {
+    transition: transform 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+} 
